@@ -34,3 +34,7 @@ See:
     python ijcai16.py --help
 ```
 for a full list of the accepted arguments.
+
+## Funding
+
+The project is supported by the CARITRO Foundation through grant E62I15000530007.
