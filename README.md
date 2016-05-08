@@ -1,7 +1,12 @@
 Preference Elicitation via Set-wise Max-margin
 ==============================================
 
-WRITEME
+Implementation of the set-wise max-margin (setmargin for short) preference
+elicitation algorithm.
+
+For details, see the paper:
+
+<a href="https://arxiv.org/abs/1604.06020" target="_blank">Stefano Teso, Andrea Passerini, Paolo Viappiani. Constructive Preference Elicitation by Setwise Max-margin Learning. proceedings of 25th International Joint Conference on Artificial Intelligence. 2016. (To appear)</a>
 
 ## Requirements
 
@@ -22,12 +27,12 @@ To run the IJCAI-16 experiments, simply type:
 To perform preference elicitation on a specific dataset with given parameters,
 type:
 ```
-    python ijcai16.py $dataset $parameters
+    python ijcai16.py run $dataset $parameters
 ```
 For instance, to run 20 trials of length 10 with set size 3 on the synthetic
 dataset, write:
 ```
-    python ijcai16.py synthetic -T 20 -n 10 -k 3
+    python ijcai16.py run synthetic -T 20 -n 10 -k 3
 ```
 See:
 ```
